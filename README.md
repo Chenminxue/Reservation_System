@@ -16,10 +16,10 @@ The company has several offices with computers (which can accommodate different 
 - Office 3: Up to 100 people
 3. Reservation System:
 - Log in page
-- - Employee
-- - System manager
-- - Boss
-- - Exit
+  - Employee
+  - System manager
+  - Boss
+  - Exit
 - 
 5. Request Rules:
 - Employee can request for the whole week.
