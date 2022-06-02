@@ -24,7 +24,23 @@ The company has several offices with computers (which can accommodate different 
   - Employee:         E_ID, name and password
   - System manager:   S_ID, name and password
   - Boss:             B_ID, name and password
-5. Request Rules:
+- Employee Menu
+ - Make a reservation
+ - Check my reservation
+ - Check system reservation
+ - Cancel the reservation
+ - log out
+- System Manager Menu
+  - Add accounts
+  - Check info of the users
+  - Check all the reservation
+  - Clear the history
+  - log out
+ - Boss Menu
+  - Check all the reservation
+  - Accept or reject the request
+  - log out
+4. Request Rules:
 - Employee can request for the whole week.
 - System manager must clear the request every week.
 - Boss should check the request from the employee wo decide whether to accept or reject.
