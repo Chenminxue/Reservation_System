@@ -7,20 +7,23 @@ The company has several offices with computers (which can accommodate different 
 
 ## Requirements
 1. Users:
-- Employee: Request for the positions
-- System manager: Create the account for the boss and employees
-- Boss: Check the request from the employees
+- Employee:         Request for the positions
+- System manager:   Create the account for the boss and employees
+- Boss:             Check the request from the employees
 2. Offices
-- Office 1: Up to 20 people
-- Office 2: Up to 50 people
-- Office 3: Up to 100 people
+- Office 1:         Up to 20 people
+- Office 2:         Up to 50 people
+- Office 3:         Up to 100 people
 3. Reservation System:
 - Log in page
   - Employee
   - System manager
   - Boss
   - Exit
-- 
+- Verification
+  - Employee:         E_ID, name and password
+  - System manager:   S_ID, name and password
+  - Boss:             B_ID, name and password
 5. Request Rules:
 - Employee can request for the whole week.
 - System manager must clear the request every week.
