@@ -25,11 +25,11 @@ The company has several offices with computers (which can accommodate different 
   - System manager:   S_ID, name and password
   - Boss:             B_ID, name and password
 - Employee Menu
- - Make a reservation
- - Check my reservation
- - Check system reservation
- - Cancel the reservation
- - log out
+  - Make a reservation
+  - Check my reservation
+  - Check system reservation
+  - Cancel the reservation
+  - log out
 - System Manager Menu
   - Add accounts
   - Check info of the users
