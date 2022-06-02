@@ -14,6 +14,13 @@ The company has several offices with computers (which can accommodate different 
 - Office 1: Up to 20 people
 - Office 2: Up to 50 people
 - Office 3: Up to 100 people
-3. 
-
+3. Reservation System:
+- Log in page
+- - Employee
+- 
+- 
+5. Request Rules:
+- Employee can request for the whole week.
+- System manager must clear the request every week.
+- Boss should check the request from the employee wo decide whether to accept or reject.
 
