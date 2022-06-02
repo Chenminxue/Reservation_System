@@ -17,7 +17,9 @@ The company has several offices with computers (which can accommodate different 
 3. Reservation System:
 - Log in page
 - - Employee
-- 
+- - System manager
+- - Boss
+- - Exit
 - 
 5. Request Rules:
 - Employee can request for the whole week.
