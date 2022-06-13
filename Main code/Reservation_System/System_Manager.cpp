@@ -1,7 +1,7 @@
 #include "System_Manager.h"
 
 // ID, name, password
-System_Manager::System_Manager(int id, string name, string pwd)
+System_Manager::System_Manager(string name, string pwd)
 {
 }
 

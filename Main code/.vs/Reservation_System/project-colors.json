@@ -5,7 +5,22 @@
       "ProjectGuid": "6772337d-c10a-4ab8-afef-22de52ce5399",
       "DisplayName": "Reservation_System",
       "ColorIndex": 0
+    },
+    "afe3ff3a-824f-472b-9546-5b34efe57bf9": {
+      "ProjectGuid": "afe3ff3a-824f-472b-9546-5b34efe57bf9",
+      "DisplayName": "Reservation_System_Test",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "eb153bc0-d8b2-4d31-9749-65a853c02ce1": {
+      "ProjectGuid": "eb153bc0-d8b2-4d31-9749-65a853c02ce1",
+      "DisplayName": "RS_Test",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

@@ -4,7 +4,8 @@
 using namespace std;
 
 // Interface class.
-class Identity {
+class Identity 
+{
 public:
 	// Menu UI
 	virtual void menu() = 0;

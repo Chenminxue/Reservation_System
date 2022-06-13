@@ -3,10 +3,11 @@
 #include "Interface.h"
 using namespace std;
 
-class System_Manager : public Identity {
+class System_Manager : public Identity 
+{
 public:
 	// ID, name, password
-	System_Manager(int id, string name, string pwd);
+	System_Manager(string name, string pwd);
 
 	// Menu UI of Employee
 	virtual void menu();
@@ -22,9 +23,6 @@ public:
 
 	// Clear history
 	void clear();
-public:
-	// ID number
-	int m_Id;
 };
 
 

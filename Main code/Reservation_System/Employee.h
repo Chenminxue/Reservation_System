@@ -3,7 +3,8 @@
 #include "Interface.h"
 using namespace std;
 
-class Employee : public Identity {
+class Employee : public Identity 
+{
 public:
 	// ID, name, password
 	Employee(int id, string name, string pwd);
