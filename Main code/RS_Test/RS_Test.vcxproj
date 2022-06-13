@@ -32,6 +32,9 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\22242\OneDrive\桌面\Reservation System\Main code\Reservation_System;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
   </ItemGroup>
@@ -46,6 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Reservation_System\Reservation_System.vcxproj">
+      <Project>{6772337d-c10a-4ab8-afef-22de52ce5399}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
@@ -80,6 +88,8 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>Boss.obj;System_Manager.obj;Employee.obj;Login.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\22242\OneDrive\桌面\Reservation System\Main code\Reservation_System\x64\Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
