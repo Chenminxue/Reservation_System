@@ -2,6 +2,11 @@
 #include "Employee.h"
 using namespace std;
 
+// Default constructor
+Employee::Employee()
+{
+}
+
 // ID, name, password
 Employee::Employee(int id, string name, string pwd)
 {

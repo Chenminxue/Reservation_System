@@ -6,6 +6,9 @@ using namespace std;
 class Boss : public Identity 
 {
 public:
+	// Default constructor
+	Boss();
+
 	// ID, name, password
 	Boss(int id, string name, string pwd);
 

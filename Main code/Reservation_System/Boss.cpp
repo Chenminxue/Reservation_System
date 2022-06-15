@@ -1,5 +1,10 @@
 #include "Boss.h"
 
+// Default constructor
+Boss::Boss()
+{
+}
+
 // ID, name, password
 Boss::Boss(int id, string name, string pwd)
 {

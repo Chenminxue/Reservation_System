@@ -1,6 +1,10 @@
 #pragma once
 #include<iostream>
+#include <vector>
+#include "Files.h"
 #include "Interface.h"
+#include "Employee.h"
+#include "Boss.h"
 using namespace std;
 
 class System_Manager : public Identity 
@@ -23,6 +27,16 @@ public:
 
 	// Clear history
 	void clear();
+
+	// Initialize container
+	void initVector();
+
+public:
+	// Employee container
+	vector<Employee> vEmployee;
+
+	// Boss container
+	vector<Boss> vBoss;
 };
 
 

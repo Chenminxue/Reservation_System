@@ -30,6 +30,9 @@
     <ClCompile Include="Login.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EnterManagerMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Interface.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterManagerMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,4 +1,5 @@
 #include "Login.h"
+#include "EnterManagerMenu.h"
 
 string Login(string fileName, int type)
 {
@@ -94,7 +95,7 @@ string Login(string fileName, int type)
 	else if (type == 3)
 	{
 		// Enter Employeee name
-		cout << "Please Enter your name." << endl;
+		cout << "System manager, please Enter your name." << endl;
 		cin >> name;
 
 		// Enter Employee password
@@ -102,12 +103,11 @@ string Login(string fileName, int type)
 		cin >> pwd;
 
 		// Verification starts
-		int verifyID;
 		string verifyName, verifyPassword;
 
-		while (ifs >> verifyID && ifs >> verifyName && ifs >> verifyPassword)
+		while (ifs >> verifyName && ifs >> verifyPassword)
 		{
-			if (verifyID == id && verifyName == name && verifyPassword == pwd)
+			if (verifyName == name && verifyPassword == pwd)
 			{
 				cout << "System manager login succeeded!" << endl;
 				system("pause");
@@ -116,7 +116,8 @@ string Login(string fileName, int type)
 				// After verification, create the identity 
 				person = new System_Manager(name, pwd);
 
-				// Enter the Menu of Boss
+				// Enter the Menu of Manager
+				enterManagerMenu(person);
 
 				return "System manager login succeeded!";
 			}

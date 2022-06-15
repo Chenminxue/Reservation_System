@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Boss.cpp" />
     <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="EnterManagerMenu.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="System_Manager.cpp" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="Boss.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="EnterManagerMenu.h" />
     <ClInclude Include="Files.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Login.h" />
