@@ -31,6 +31,9 @@ public:
 	// Initialize container
 	void initVector();
 
+	// Avoid repeat ID number
+	bool checkRepeat(int id, int type);
+
 public:
 	// Employee container
 	vector<Employee> vEmployee;

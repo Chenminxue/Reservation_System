@@ -51,6 +51,13 @@ void System_Manager::addAccount()
 	{
 		fileName = BOSS;
 	}
+	else
+	{
+		cout << "Wrong choice, please choose again!" << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
 
 	// Open the file for writting
 	ofs.open(fileName, ios::out | ios::app);
@@ -58,8 +65,20 @@ void System_Manager::addAccount()
 	int id;
 	string name, pwd;
 
-	cout << "Please enter your ID..." << endl;
-	cin >> id;
+	while (true)
+	{
+		cout << "Please enter your ID..." << endl;
+		cin >> id;
+		bool res = checkRepeat(id, select);
+		if (res) 
+		{
+			cout << "Wrong ID! Please check again!" << endl;
+		}
+		else 
+		{
+			break;
+		}
+	}
 
 	cout << "Please enter your name..." << endl;
 	cin >> name;
@@ -75,6 +94,8 @@ void System_Manager::addAccount()
 	system("cls");
 
 	ofs.close();
+
+	initVector();
 }
 
 // Check account
@@ -134,6 +155,31 @@ void System_Manager::initVector()
 	cout << "Number of Boss: " << vBoss.size() << endl;
 
 	ifs.close();
+}
+
+bool System_Manager::checkRepeat(int id, int type)
+{
+	if (type == 1)				// Check Employee
+	{
+		for (vector<Employee>::iterator it = vEmployee.begin(); it != vEmployee.end(); it++) 
+		{
+			if (id == it->m_Id)
+			{
+				return true;
+			}
+		}
+	}
+	else                        // Check Boss
+	{
+		for (vector<Boss>::iterator it = vBoss.begin(); it != vBoss.end(); it++)
+		{
+			if (id == it->m_Id)
+			{
+				return true;
+			}
+		}
+	}
+	return false;
 }
 
 
