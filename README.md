@@ -45,3 +45,5 @@ The company has several offices with computers (which can accommodate different 
 - System manager must clear the request every week.
 - Boss should check the request from the employee wo decide whether to accept or reject.
 
+### 5. UML diagram
+![image](pics/class_diagram.png)
