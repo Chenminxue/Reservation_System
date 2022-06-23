@@ -19,8 +19,11 @@ int main(){
 		cout << "\t -------------------------------------------\n";
 		cout << "\t |                                          |\n";
 		cout << "\t |               1. Employee                |\n";
+		cout << "\t |                                          |\n";
 		cout << "\t |               2. Boss                    |\n";
+		cout << "\t |                                          |\n";
 		cout << "\t |               3. System Manager          |\n";
+		cout << "\t |                                          |\n";
 		cout << "\t |               0. Exit!                   |\n";
 		cout << "\t |                                          |\n";
 		cout << "\t -------------------------------------------\n";

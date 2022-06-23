@@ -1,5 +1,5 @@
 #include "Login.h"
-#include "EnterManagerMenu.h"
+#include "EnterMenu.h"
 
 string Login(string fileName, int type)
 {
@@ -52,6 +52,7 @@ string Login(string fileName, int type)
 				person = new Employee(id, name, pwd);
 
 				// Enter the Menu of Employee
+				enterEmployeeMenu(person);
 
 				return "Employee login succeeded!";
 			}
@@ -59,15 +60,15 @@ string Login(string fileName, int type)
 	}
 	else if (type == 2)
 	{
-		// Enter Employee ID
+		// Enter Boss ID
 		cout << "Boss, please enter your ID." << endl;
 		cin >> id;
 
-		// Enter Employeee name
+		// Enter Boss name
 		cout << "Please Enter your name." << endl;
 		cin >> name;
 
-		// Enter Employee password
+		// Enter Boss password
 		cout << "Please Enter your password." << endl;
 		cin >> pwd;
 
@@ -87,6 +88,7 @@ string Login(string fileName, int type)
 				person = new Boss(id, name, pwd);
 
 				// Enter the Menu of Boss
+				enterBossMenu(person);
 
 				return "Boss login succeeded!";
 			}
@@ -94,11 +96,11 @@ string Login(string fileName, int type)
 	}
 	else if (type == 3)
 	{
-		// Enter Employeee name
+		// Enter Manager name
 		cout << "System manager, please Enter your name." << endl;
 		cin >> name;
 
-		// Enter Employee password
+		// Enter Manager password
 		cout << "Please Enter your password." << endl;
 		cin >> pwd;
 

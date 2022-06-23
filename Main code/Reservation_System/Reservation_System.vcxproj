@@ -141,18 +141,21 @@
   <ItemGroup>
     <ClCompile Include="Boss.cpp" />
     <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="EnterManagerMenu.cpp" />
+    <ClCompile Include="EnterMenu.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Read_Reservation_Info.cpp" />
     <ClCompile Include="System_Manager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boss.h" />
     <ClInclude Include="Employee.h" />
-    <ClInclude Include="EnterManagerMenu.h" />
+    <ClInclude Include="EnterMenu.h" />
     <ClInclude Include="Files.h" />
+    <ClInclude Include="OfficeRoom.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Login.h" />
+    <ClInclude Include="Read_Reservation_Info.h" />
     <ClInclude Include="System_Manager.h" />
   </ItemGroup>
   <ItemGroup>

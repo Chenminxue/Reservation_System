@@ -1,10 +1,9 @@
 #pragma once
-#include<iostream>
-#include <vector>
 #include "Files.h"
 #include "Interface.h"
 #include "Employee.h"
 #include "Boss.h"
+#include "OfficeRoom.h"
 using namespace std;
 
 class System_Manager : public Identity 
@@ -28,8 +27,11 @@ public:
 	// Clear history
 	void clear();
 
-	// Initialize container
+	// Initialize employee and boss
 	void initVector();
+
+	// Initialize office room
+	void initOfficeRoom();
 
 	// Avoid repeat ID number
 	bool checkRepeat(int id, int type);
@@ -40,6 +42,17 @@ public:
 
 	// Boss container
 	vector<Boss> vBoss;
+
+	// Office container
+	vector<OfficeRoom> vOff;
 };
+
+
+// For printing employee
+void printEmployee(Employee& emp);
+
+// For printing boss
+void printBoss(Boss& boss);
+
 
 

@@ -10,7 +10,7 @@
 #define BOSS "boss.txt"
 
 // System file
-#define System "system.txt"
+#define OFFICEROOM "system.txt"
 
 // Reservation file
 #define RESERVATION "reservation.txt"

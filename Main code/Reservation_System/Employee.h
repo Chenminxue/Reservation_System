@@ -1,5 +1,5 @@
 #pragma once
-#include<iostream>
+#include "OfficeRoom.h"
 #include "Interface.h"
 using namespace std;
 
@@ -18,8 +18,11 @@ public:
 	// Request reservation
 	void request();
 
-	// Check reservation
+	// Check self reservation
 	void showInfo();
+
+	// Check all reservation
+	void showAllInfo();
 
 	// Cancel reservation
 	void cancel();
@@ -27,4 +30,7 @@ public:
 public:
 	// ID number
 	int m_Id;
+
+	// Office room container
+	vector<OfficeRoom> vOff;
 };
